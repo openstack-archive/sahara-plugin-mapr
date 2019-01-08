@@ -1,0 +1,4 @@
+- project:
+    templates:
+      - tempest-plugin-jobs
+      - release-notes-jobs-python3
