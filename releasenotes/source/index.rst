@@ -1,15 +1,8 @@
-======================
- Sahara Release Notes
-======================
+==================================
+ Sahara MapR Plugin Release Notes
+==================================
 
 .. toctree::
    :maxdepth: 1
 
    unreleased
-   rocky
-   queens
-   pike
-   ocata
-   newton
-   mitaka
-   liberty
