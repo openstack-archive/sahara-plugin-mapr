@@ -20,7 +20,7 @@
 import oslo_i18n
 
 
-_translators = oslo_i18n.TranslatorFactory(domain='sahara')
+_translators = oslo_i18n.TranslatorFactory(domain='sahara_plugin_mapr')
 
 # The primary translation function using the well-known name "_"
 _ = _translators.primary

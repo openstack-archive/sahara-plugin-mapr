@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# sahara-mapr-plugin documentation build configuration file.
+# sahara-plugin-mapr documentation build configuration file.
 #
 # -- General configuration -----------------------------------------------------
 
@@ -180,7 +180,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'sahara-mapr-plugin.tex', u'sahara-mapr-plugin Documentation',
+  ('index', 'sahara-plugin-mapr.tex', u'sahara-plugin-mapr Documentation',
    u'Sahara team', 'manual'),
 ]
 
@@ -210,7 +210,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'sahara-mapr-plugin', u'sahara-mapr-plugin Documentation',
+    ('index', 'sahara-plugin-mapr', u'sahara-plugin-mapr Documentation',
      [u'Sahara team'], 1)
 ]
 
@@ -224,8 +224,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'sahara-mapr-plugin', u'sahara-mapr-plugin Documentation',
-   u'Sahara team', 'sahara-mapr-plugin', 'One line description of project.',
+  ('index', 'sahara-plugin-mapr', u'sahara-plugin-mapr Documentation',
+   u'Sahara team', 'sahara-plugin-mapr', 'One line description of project.',
    'Miscellaneous'),
 ]
 
