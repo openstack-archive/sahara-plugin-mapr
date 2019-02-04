@@ -8,7 +8,7 @@ extjs_basepath=$(basename ${EXTJS_DOWNLOAD_URL})
 extjs_archive=/tmp/${extjs_basepath}
 extjs_folder="${extjs_basepath%.*}"
 
-function setup_extjs {
+setup_extjs() {
     curl -sS -o $extjs_archive $EXTJS_DOWNLOAD_URL
     mkdir -p $EXTJS_DESTINATION_DIR
 }

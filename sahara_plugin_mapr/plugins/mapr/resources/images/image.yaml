@@ -150,7 +150,6 @@ validators:
               - mysql-common
               - nfs-common
               - open-iscsi
-              - openjdk-7-jre
               - syslinux-common
               - zlib1g-dev
   - script: common/configure_extjs
