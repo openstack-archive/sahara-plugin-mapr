@@ -8,3 +8,7 @@
       - openstack-python37-jobs
       - publish-openstack-docs-pti
       - release-notes-jobs-python3
+    check:
+      jobs:
+        - sahara-buildimages-mapr:
+            voting: false
