@@ -135,7 +135,7 @@ class Oozie(s.Service):
 
     @el.provision_step(_("Rebuilt Oozie war"))
     def _rebuild(self, cluster_context, instances):
-        OOZIE.stop(filter(OOZIE.is_started, instances))
+        OOZIE.stop(list(filter(OOZIE.is_started, instances)))
         g.execute_on_instances(
             instances, self._rebuild_oozie_war, cluster_context)
         OOZIE.start(instances)

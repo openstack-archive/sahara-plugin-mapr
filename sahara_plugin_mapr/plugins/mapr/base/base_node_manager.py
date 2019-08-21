@@ -77,9 +77,8 @@ class BaseNodeManager(s.AbstractNodeManager):
         instances = instances or cluster_context.get_instances()
         zookeepers = cluster_context.filter_instances(instances, mng.ZOOKEEPER)
         cldbs = cluster_context.filter_instances(instances, mfs.CLDB)
-        others = filter(
-            lambda i: not cluster_context.check_for_process(i, mfs.CLDB),
-            instances)
+        others = [i for i in instances
+                  if not cluster_context.check_for_process(i, mfs.CLDB)]
         utils.add_provisioning_step(cluster_context.cluster.id,
                                     _("Start ZooKeepers nodes"),
                                     len(zookeepers))

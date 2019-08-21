@@ -233,10 +233,10 @@ def create_fake_cluster(cluster, existing, additional):
     def need_upd(node_group):
         return node_group.id in counts and counts[node_group.id] > 0
 
-    updated = map(update_ng, filter(need_upd, cluster.node_groups))
-    not_updated = filter(lambda ng:
-                         not need_upd(ng) and ng is not None,
-                         cluster.node_groups)
+    updated = list(map(update_ng, filter(need_upd, cluster.node_groups)))
+    not_updated = list(
+        filter(lambda ng: not need_upd(ng) and ng is not None,
+               cluster.node_groups))
     cluster_dict = cluster.to_dict()
     cluster_dict.update({'node_groups': updated + not_updated})
     fake = r.create_cluster_resource(cluster_dict)
