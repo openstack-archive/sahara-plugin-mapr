@@ -46,7 +46,7 @@ class Swift(s.Service):
     @el.provision_step("Install Swift service")
     def _install_swift_jar(self, cluster_context, instances):
         LOG.debug('Installing Swift jar')
-        jar = u.get_file_text(Swift.HADOOP_SWIFT_JAR, 'sahara_plugin_mapr')
+        jar = u.try_get_file_text(Swift.HADOOP_SWIFT_JAR, 'sahara_plugin_mapr')
         path = '%s/swift.jar' % cluster_context.hadoop_lib
 
         @el.provision_event()
