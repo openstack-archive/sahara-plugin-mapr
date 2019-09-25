@@ -1,0 +1,272 @@
+# Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: sahara-plugin-mapr VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2019-09-20 17:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-09-25 06:29+0000\n"
+"Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, python-format
+msgid "%(message)s, required by %(required_by)s"
+msgstr "%(message)s, benötigt von %(required_by)s"
+
+#, python-format
+msgid "%(service)s service cannot be installed alongside %(package)s package"
+msgstr ""
+"Der Dienst %(service)s kann nicht zusammen mit dem Paket %(package)s "
+"installiert werden"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "%s is in running state"
+msgstr "%s befindet sich im aktiven Zustand"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "%s is not in running state"
+msgstr "%s befindet sich nicht im aktiven Zustand"
+
+#, python-format
+msgid "%s must have at least 1 volume or ephemeral drive"
+msgstr "%s muss mindestens 1 Datenträger oder ephemeres Laufwerk haben"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "CLDB failed to start"
+msgstr "CLDB konnte nicht gestartet werden"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Can not map service"
+msgstr "Der Dienst kann nicht zugeordnet werden"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "Config '%s' missing 'value'"
+msgstr "Config '%s' fehlender 'value'"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Config missing 'name'"
+msgstr "Config fehlender 'name'"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Configure SSH connection"
+msgstr "Konfiguriere SSH-Verbindung"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Configure cluster topology"
+msgstr "Konfiguriere Cluster-Topologie"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Configure database"
+msgstr "Datenbank konfigurieren"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Create Sentry role for Hive"
+msgstr "Erstelle Sentry-Rolle für Hive"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Execute configure.sh"
+msgstr "Führe configure.sh aus"
+
+#, python-format
+msgid ""
+"Hadoop cluster should contain at least %(expected_count)d %(component)s "
+"component(s). Actual %(component)s count is %(actual_count)d"
+msgstr ""
+"Hadoop-Cluster sollte mindestens %(expected_count)d %(component)s-"
+"Komponente(n) enthalten. Tatsächliche %(component)s Anzahl ist "
+"%(actual_count)d"
+
+#, python-format
+msgid ""
+"Hadoop cluster should contain at most %(expected_count)d %(component)s "
+"component(s). Actual %(component)s count is %(actual_count)d"
+msgstr ""
+"Hadoop-Cluster sollte höchstens %(expected_count)d %(component)s "
+"Komponente(n) enthalten. Tatsächliche %(component)s Anzahl ist "
+"%(actual_count)d"
+
+#, python-format
+msgid ""
+"Hadoop cluster should contain odd number of %(component)s but "
+"%(actual_count)s found."
+msgstr ""
+"Der Hadoop-Cluster sollte eine ungerade Anzahl von %(component)s, aber "
+"%(actual_count)s sind enthalten."
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Init Sentry DB schema"
+msgstr "Init-Sentry-DB-Schema"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Initializing MapR-FS"
+msgstr "Initialisieren von MapR-FS"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "Install %s service"
+msgstr "Installiere den %s Dienst"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Install Java"
+msgstr "Installiere Java"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Install MapR repositories"
+msgstr "Installiere MapR-Repositories"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Install MySQL client"
+msgstr "Installiere MySQL-Client"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Install Scala"
+msgstr "Installiere Scala"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Install security repos"
+msgstr "Installiere Sicherheitsrepositionen"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "Invalid argument type %s"
+msgstr "Ungültiger Argumenttyp %s"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Migrating Hue database"
+msgstr "Migrieren der Hue-Datenbank"
+
+#, python-format
+msgid "Node \"%(ng_name)s\" is missing component %(component)s"
+msgstr "Knoten '%(ng_name)s' fehlt Komponente %(component)s"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "Node failed to connect to CLDB: %s"
+msgstr "Knoten konnte keine Verbindung zu CLDB herstellen: %s"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Rebuilt Oozie war"
+msgstr "Wiederaufbau von Oozie war"
+
+#, python-format
+msgid ""
+"Service %(service)s requires %(os)s OS. Use %(os)s image and add \"%(os)s\" "
+"tag to it."
+msgstr ""
+"Service %(service)s benötigt %(os)s OS. Verwenden Sie das %(os)s Abbild und "
+"fügen Sie das '%(os)s'-Tag hinzu."
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Service not found in services list"
+msgstr "Dienst nicht in der Serviceliste gefunden"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Set cluster mode"
+msgstr "Stelle Cluster-Modus"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "Some %s processes are not in running state"
+msgstr "Einige %s-Prozesse sind nicht im aktiven Zustand"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Some ZooKeeper processes are not in running state"
+msgstr "Einige ZooKeeper-Prozesse sind nicht im aktiven Zustand"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Specifies CentOS MapR core repository."
+msgstr "Gibt das CentOS MapR-Kernrepository an."
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Specifies CentOS MapR ecosystem repository."
+msgstr "Gibt das CentOS MapR-Ökosystem-Repository an."
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Specifies Sentry storage mode."
+msgstr "Gibt den Sentry-Speichermodus an."
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Specifies Ubuntu MapR core repository."
+msgstr "Gibt das Ubuntu MapR-Core-Repository an."
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Specifies Ubuntu MapR ecosystem repository."
+msgstr "Gibt das Ubuntu MapR-Ökosystem-Repository an."
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Specifies heap size for MapR-FS in percents of maximum value."
+msgstr ""
+"Legt die Größe des Heapspeichers für MapR-FS in Prozent des Maximalwerts "
+"fest."
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Specifies that MapR-DB is in use."
+msgstr "Gibt an, dass MapR-DB verwendet wird."
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Specifies thrift version."
+msgstr "Gibt die thrift Version an."
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Specify the version of the service"
+msgstr "Geben Sie die Version des Service an"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Start CLDB nodes"
+msgstr "Starte CLDB-Knoten"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Start ZooKeepers nodes"
+msgstr "Starten Sie ZooKeepers-Knoten"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Start non-CLDB nodes"
+msgstr "Starte Sie Nicht-CLDB Knoten"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Stop Warden nodes"
+msgstr "Stoppe Warden-Knoten"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Stop ZooKeepers nodes"
+msgstr "Stoppe ZooKeepers-Knoten"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Template object must be defined"
+msgstr "Vorlagenobjekt muss definiert sein"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid ""
+"The MapR Distribution provides a full Hadoop stack that includes the MapR "
+"File System (MapR-FS), MapReduce, a complete Hadoop ecosystem, and the MapR "
+"Control System user interface"
+msgstr ""
+"MapR Distribution bietet einen vollständigen Hadoop-Stapel, der das MapR-"
+"Dateisystem (MapR-FS), MapReduce, ein vollständiges Hadoop-Ökosystem und die "
+"Benutzeroberfläche des MapR-Steuerungssystems enthält"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Wait for {node_process} on {instance} to change status to \"{status}\""
+msgstr ""
+"Warten Sie auf {node_process} auf {instance}, um den Status in \"{status}\" "
+"zu ändern"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Write config files to instances"
+msgstr "Schreibe Konfigurationsdateien in Instanzen"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "ZooKeeper is in running state"
+msgstr "ZooKeeper ist in Bearbeitung"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "ZooKeeper is not in running state"
+msgstr "ZooKeeper befindet sich nicht im aktiven Status"

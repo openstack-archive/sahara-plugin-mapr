@@ -1,0 +1,26 @@
+# Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: sahara-plugin-mapr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-20 17:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-09-25 06:26+0000\n"
+"Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+# auto translated by TM merge from project: sahara-plugin-cdh, version: master, DocId: releasenotes/source/locale/releasenotes
+msgid "Current Series Release Notes"
+msgstr "Aktuelle Serie Releasenotes"
+
+msgid "Sahara MapR Plugin Release Notes"
+msgstr "Sahara MapR Plugin Releasenotes"
+
+# auto translated by TM merge from project: sahara-plugin-cdh, version: master, DocId: releasenotes/source/locale/releasenotes
+msgid "Stein Series Release Notes"
+msgstr "Stein Serie Releasenotes"
