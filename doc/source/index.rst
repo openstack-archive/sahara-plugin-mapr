@@ -6,3 +6,4 @@ MapR plugin for Sahara
 
    user/index
 
+   contributor/index
