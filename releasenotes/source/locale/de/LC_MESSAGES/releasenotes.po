@@ -1,13 +1,14 @@
 # Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
+# Andreas Jaeger <jaegerandi@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: sahara-plugin-mapr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-27 11:37+0000\n"
+"POT-Creation-Date: 2020-04-24 23:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-09-28 08:02+0000\n"
+"PO-Revision-Date: 2020-04-25 10:41+0000\n"
 "Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -17,6 +18,16 @@ msgstr ""
 msgid "Current Series Release Notes"
 msgstr "Aktuelle Serie Releasenotes"
 
+msgid ""
+"Python 2.7 support has been dropped. Last release of sahara and its plugins "
+"to support python 2.7 is OpenStack Train. The minimum version of Python now "
+"supported by sahara and its plugins is Python 3.6."
+msgstr ""
+"Python 2.7 Unterstützung wurde beendet. Der letzte Release von Sahara und "
+"seinen Plugins der Python 2.7 unterstützt ist OpenStack Train. Die minimal "
+"Python Version welche von  Sahara und seinen Plugins unterstützt wird, ist "
+"Python 3.6."
+
 msgid "Sahara MapR Plugin Release Notes"
 msgstr "Sahara MapR Plugin Releasenotes"
 
@@ -25,3 +36,9 @@ msgstr "Stein Serie Releasenotes"
 
 msgid "Train Series Release Notes"
 msgstr "Train Serie Releasenotes"
+
+msgid "Upgrade Notes"
+msgstr "Aktualisierungsnotizen"
+
+msgid "Ussuri Series Release Notes"
+msgstr "Ussuri Serie Releasenotes"
