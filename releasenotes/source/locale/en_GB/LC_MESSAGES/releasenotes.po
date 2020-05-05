@@ -1,0 +1,45 @@
+# Andi Chandler <andi@gowling.com>, 2020. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: sahara-plugin-mapr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-26 20:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-05-04 09:31+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>\n"
+"Language-Team: English (United Kingdom)\n"
+"Language: en_GB\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "3.0.0.0rc1"
+msgstr "3.0.0.0rc1"
+
+msgid "Current Series Release Notes"
+msgstr "Current Series Release Notes"
+
+msgid ""
+"Python 2.7 support has been dropped. Last release of sahara and its plugins "
+"to support python 2.7 is OpenStack Train. The minimum version of Python now "
+"supported by sahara and its plugins is Python 3.6."
+msgstr ""
+"Python 2.7 support has been dropped. Last release of sahara and its plugins "
+"to support Python 2.7 is OpenStack Train. The minimum version of Python now "
+"supported by sahara and its plugins is Python 3.6."
+
+msgid "Sahara MapR Plugin Release Notes"
+msgstr "Sahara MapR Plugin Release Notes"
+
+msgid "Stein Series Release Notes"
+msgstr "Stein Series Release Notes"
+
+msgid "Train Series Release Notes"
+msgstr "Train Series Release Notes"
+
+msgid "Upgrade Notes"
+msgstr "Upgrade Notes"
+
+msgid "Ussuri Series Release Notes"
+msgstr "Ussuri Series Release Notes"
