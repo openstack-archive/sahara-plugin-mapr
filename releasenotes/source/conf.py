@@ -20,9 +20,8 @@ extensions = [
 ]
 
 # openstackdocstheme options
-repository_name = 'openstack/sahara-plugin-mapr'
-bug_project = '1103'
-bug_tag = 'releasenotes'
+openstackdocs_repo_name = 'openstack/sahara-plugin-mapr'
+openstackdocs_use_storyboard = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -48,7 +47,7 @@ version = ''
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'native'
 
 
 # -- Options for HTML output ----------------------------------------------
