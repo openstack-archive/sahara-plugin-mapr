@@ -15,11 +15,8 @@
 
 import abc
 
-import six
 
-
-@six.add_metaclass(abc.ABCMeta)
-class AbstractConfigurer(object):
+class AbstractConfigurer(object, metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def configure(self, cluster_context, instances=None):
         pass

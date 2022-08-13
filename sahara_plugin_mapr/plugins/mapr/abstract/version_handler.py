@@ -15,11 +15,8 @@
 
 import abc
 
-import six
 
-
-@six.add_metaclass(abc.ABCMeta)
-class AbstractVersionHandler(object):
+class AbstractVersionHandler(object, metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def get_node_processes(self):
         return

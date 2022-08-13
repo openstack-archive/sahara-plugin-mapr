@@ -15,11 +15,8 @@
 
 import abc
 
-import six
 
-
-@six.add_metaclass(abc.ABCMeta)
-class AbstractClusterContext(object):
+class AbstractClusterContext(object, metaclass=abc.ABCMeta):
     @abc.abstractproperty
     def mapr_home(self):
         return

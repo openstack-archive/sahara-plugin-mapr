@@ -15,11 +15,8 @@
 
 import abc
 
-import six
 
-
-@six.add_metaclass(abc.ABCMeta)
-class AbstractValidator(object):
+class AbstractValidator(object, metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def validate(self, cluster_context):
         pass

@@ -15,7 +15,6 @@
 
 from oslo_log import log as logging
 from oslo_serialization import jsonutils as json
-import six
 
 import sahara.plugins.exceptions as ex
 import sahara.plugins.provisioning as p
@@ -33,8 +32,7 @@ SERVICE_UI = 'Web UI'
 _INSTALL_PACKAGES_TIMEOUT = 3600
 
 
-@six.add_metaclass(g.Singleton)
-class Service(object):
+class Service(object, metaclass=g.Singleton):
     def __init__(self):
         self._name = None
         self._ui_name = None

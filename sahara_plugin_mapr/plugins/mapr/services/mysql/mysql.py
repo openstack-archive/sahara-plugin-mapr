@@ -16,7 +16,6 @@
 import collections as c
 
 from oslo_log import log as logging
-import six
 
 import sahara.plugins.utils as u
 import sahara_plugin_mapr.plugins.mapr.domain.configuration_file as cf
@@ -186,7 +185,7 @@ class MySQL(s.Service):
         script.parse(u.get_file_text(
             'plugins/mapr/services/mysql/resources/%s' % template,
             'sahara_plugin_mapr'))
-        for k, v in six.iteritems(kwargs):
+        for k, v in kwargs.items():
             script.add_property(k, v)
         return script
 

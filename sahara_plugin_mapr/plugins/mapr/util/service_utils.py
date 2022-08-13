@@ -13,8 +13,6 @@
 # under the License.
 
 
-import six
-
 from sahara_plugin_mapr.i18n import _
 
 
@@ -24,7 +22,7 @@ def get_node_process_name(node_process):
 
     if isinstance(node_process, np.NodeProcess):
         return node_process.ui_name
-    if isinstance(node_process, six.string_types):
+    if isinstance(node_process, str):
         return node_process
 
     raise TypeError(_("Invalid argument type %s") % type(node_process))

@@ -14,11 +14,8 @@
 
 import abc
 
-import six
 
-
-@six.add_metaclass(abc.ABCMeta)
-class AbstractHealthChecker(object):
+class AbstractHealthChecker(object, metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def get_checks(self, cluster_context, instances=None):
         pass

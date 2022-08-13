@@ -33,7 +33,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-copyright = u'2015, Sahara Developers'
+copyright = '2015, Sahara Developers'
 
 # Release do not need a version number in the title, they
 # cover multiple versions.
@@ -142,8 +142,8 @@ htmlhelp_basename = 'SaharaMapRReleaseNotesdoc'
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     ('index', 'SaharaMapRReleaseNotes.tex',
-     u'Sahara MapR Plugin Release Notes Documentation',
-     u'Sahara Developers', 'manual'),
+     'Sahara MapR Plugin Release Notes Documentation',
+     'Sahara Developers', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -173,8 +173,8 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'saharamaprreleasenotes',
-     u'Sahara MapR Plugin Release Notes Documentation',
-     [u'Sahara Developers'], 1)
+     'Sahara MapR Plugin Release Notes Documentation',
+     ['Sahara Developers'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -188,8 +188,8 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'SaharaMapRReleaseNotes',
-     u'Sahara MapR Plugin Release Notes Documentation',
-     u'Sahara Developers', 'SaharaMapRReleaseNotes',
+     'Sahara MapR Plugin Release Notes Documentation',
+     'Sahara Developers', 'SaharaMapRReleaseNotes',
      'One line description of project.',
      'Miscellaneous'),
 ]

@@ -15,11 +15,8 @@
 
 import abc
 
-import six
 
-
-@six.add_metaclass(abc.ABCMeta)
-class AbstractNodeManager(object):
+class AbstractNodeManager(object, metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def start(self, cluster_context, instances=None):
         pass

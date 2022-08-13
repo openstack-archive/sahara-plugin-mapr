@@ -18,15 +18,13 @@ import os
 import re
 
 import jinja2 as j2
-import six
 
 import sahara.plugins.exceptions as e
 import sahara.plugins.utils as utils
 from sahara_plugin_mapr.i18n import _
 
 
-@six.add_metaclass(abc.ABCMeta)
-class FileAttr(object):
+class FileAttr(object, metaclass=abc.ABCMeta):
     def __init__(self, path, data, mode, owner):
         self.path = path
         self.data = data
@@ -34,8 +32,7 @@ class FileAttr(object):
         self.owner = owner
 
 
-@six.add_metaclass(abc.ABCMeta)
-class BaseConfigurationFile(object):
+class BaseConfigurationFile(object, metaclass=abc.ABCMeta):
     def __init__(self, file_name):
         self.f_name = file_name
         self._config_dict = dict()
@@ -66,14 +63,14 @@ class BaseConfigurationFile(object):
             self.parse(content)
 
     def load_properties(self, config_dict):
-        for k, v in six.iteritems(config_dict):
+        for k, v in config_dict.items():
             self.add_property(k, v)
 
     def add_property(self, name, value):
         self._config_dict[name] = value
 
     def add_properties(self, properties):
-        for prop in six.iteritems(properties):
+        for prop in properties.items():
             self.add_property(*prop)
 
     def _get_config_value(self, name):
@@ -127,7 +124,7 @@ class PropertiesFile(BaseConfigurationFile):
 
     def render(self):
         lines = ['%s%s%s' % (k, self.separator, v) for k, v in
-                 six.iteritems(self._config_dict)]
+                 self._config_dict.items()]
         return "\n".join(lines) + '\n'
 
 
@@ -176,7 +173,7 @@ class EnvironmentConfig(BaseConfigurationFile):
             string = string.decode("utf-8")
         except AttributeError:
             pass
-        string = six.text_type(string).strip()
+        string = str(string).strip()
         string = string.replace("\"", "")
         return string
 
@@ -191,5 +188,5 @@ class EnvironmentConfig(BaseConfigurationFile):
                     del self._config_dict[name]
             else:
                 result.append(line)
-        extra_ops = [self._tmpl % i for i in six.iteritems(self._config_dict)]
+        extra_ops = [self._tmpl % i for i in self._config_dict.items()]
         return '\n'.join(result + extra_ops) + '\n'

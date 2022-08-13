@@ -12,8 +12,6 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-import six
-
 from sahara.plugins import provisioning as p
 from sahara.plugins import testutils as tu
 import sahara_plugin_mapr.plugins.mapr.abstract.cluster_context as a_context
@@ -78,8 +76,8 @@ class TestHandler(b.SaharaTestCase):
         np_dict = self.handler.get_node_processes()
         self.assertIsNotNone(np_dict)
         self.assertIsInstance(np_dict, dict)
-        for k, v in six.iteritems(np_dict):
-            self.assertIsInstance(k, six.string_types)
+        for k, v in np_dict.items():
+            self.assertIsInstance(k, str)
             self.assertIsInstance(v, list)
             self.assertNotEqual(0, len(v))
 
@@ -100,8 +98,8 @@ class TestHandler(b.SaharaTestCase):
     def test_get_configs_dict(self):
         configs_dict = self.handler.get_configs_dict()
         self.assertIsInstance(configs_dict, dict)
-        for k, v in six.iteritems(configs_dict):
-            self.assertIsInstance(k, six.string_types)
+        for k, v in configs_dict.items():
+            self.assertIsInstance(k, str)
             self.assertIsInstance(v, dict)
 
     def test_get_open_ports(self):

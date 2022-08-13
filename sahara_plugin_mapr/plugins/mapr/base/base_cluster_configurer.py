@@ -16,7 +16,6 @@
 import abc
 
 from oslo_log import log as logging
-import six
 
 from sahara.plugins import conductor
 from sahara.plugins import context
@@ -57,8 +56,7 @@ SERVICE_INSTALL_PRIORITY = [
 ]
 
 
-@six.add_metaclass(abc.ABCMeta)
-class BaseConfigurer(ac.AbstractConfigurer):
+class BaseConfigurer(ac.AbstractConfigurer, metaclass=abc.ABCMeta):
     def configure(self, cluster_context, instances=None):
         instances = instances or cluster_context.get_instances()
         self._configure_ssh_connection(cluster_context, instances)
@@ -168,7 +166,7 @@ class BaseConfigurer(ac.AbstractConfigurer):
         LOG.debug("Configuring cluster topology")
 
         topology_map = cluster_context.topology_map
-        topology_map = ("%s %s" % item for item in six.iteritems(topology_map))
+        topology_map = ("%s %s" % item for item in topology_map.items())
         topology_map = "\n".join(topology_map) + "\n"
 
         data_path = "%s/topology.data" % cluster_context.mapr_home
@@ -390,7 +388,7 @@ class BaseConfigurer(ac.AbstractConfigurer):
 
     def _restart_services(self, cluster_context):
         restart = cluster_context.should_be_restarted
-        for service, instances in six.iteritems(restart):
+        for service, instances in restart.items():
             service.restart(util.unique_list(instances))
 
     def _post_configure_sh(self, cluster_context, instances):
