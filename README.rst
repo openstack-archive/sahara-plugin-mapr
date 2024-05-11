@@ -1,38 +1,10 @@
-========================
-Team and repository tags
-========================
+This project is no longer maintained.
 
-.. image:: https://governance.openstack.org/tc/badges/sahara.svg
-    :target: https://governance.openstack.org/tc/reference/tags/index.html
+The contents of this repository are still available in the Git
+source code management system.  To see the contents of this
+repository before it reached its end of life, please check out the
+previous commit with "git checkout HEAD^1".
 
-.. Change things from this point on
-
-OpenStack Data Processing ("Sahara") MapR plugin
-================================================
-
-OpenStack Sahara MapR Plugin provides the users the option to
-start MapR clusters on OpenStack Sahara.
-Check out OpenStack Sahara documentation to see how to deploy the
-MapR Plugin.
-
-Sahara at wiki.openstack.org: https://wiki.openstack.org/wiki/Sahara
-
-Storyboard project: https://storyboard.openstack.org/#!/project/openstack/sahara-plugin-mapr
-
-Sahara docs site: https://docs.openstack.org/sahara/latest/
-
-Quickstart guide: https://docs.openstack.org/sahara/latest/user/quickstart.html
-
-How to participate: https://docs.openstack.org/sahara/latest/contributor/how-to-participate.html
-
-Source: https://opendev.org/openstack/sahara-plugin-mapr
-
-Bugs and feature requests: https://storyboard.openstack.org/#!/openstack/sahara-plugin-mapr
-
-Release notes: https://docs.openstack.org/releasenotes/sahara-plugin-mapr/
-
-License
--------
-
-Apache License Version 2.0 http://www.apache.org/licenses/LICENSE-2.0
-
+For any further questions, please email
+openstack-discuss@lists.openstack.org or join #openstack-dev on
+OFTC.
